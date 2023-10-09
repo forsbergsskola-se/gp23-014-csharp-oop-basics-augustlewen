@@ -1,4 +1,9 @@
-﻿Person[] people = new Person[3]{new Person(), new Person(), new Person()};
+﻿Person[] people = new Person[3];
+
+for (var i = 0; i < people.Length; i++)
+{
+    people[i] = new Person();
+}
 
 foreach (Person person in people)
 {
