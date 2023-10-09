@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2Fields", "P2Fields\P2Fiel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3LevelUp", "P3LevelUp\P3LevelUp.csproj", "{C0CCD6D6-965E-4683-89E5-F4B248723C09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4Attack", "P4Attack\P4Attack.csproj", "{05536B4F-E009-4D3D-AD7E-2DAB79D42DB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{C0CCD6D6-965E-4683-89E5-F4B248723C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0CCD6D6-965E-4683-89E5-F4B248723C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0CCD6D6-965E-4683-89E5-F4B248723C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05536B4F-E009-4D3D-AD7E-2DAB79D42DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05536B4F-E009-4D3D-AD7E-2DAB79D42DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05536B4F-E009-4D3D-AD7E-2DAB79D42DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05536B4F-E009-4D3D-AD7E-2DAB79D42DB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
