@@ -7,7 +7,6 @@ while (true)
     player.GrantExperience(GetInputValue());
 }
 
-
 int GetInputValue()
 {
     int value = 0;
