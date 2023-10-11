@@ -3,19 +3,10 @@
 while (true)
 {
     Console.WriteLine($"{player.level} Level and {player.experience} Experience");
-    player.experience += GetInputValue();
-    LevelUpCheck();
+
+    player.GrantExperience(GetInputValue());
 }
 
-void LevelUpCheck()
-{
-    if (player.experience >= 100)
-    {
-        player.level++;
-        player.experience -= 100;
-        LevelUpCheck();
-    }
-}
 
 int GetInputValue()
 {
@@ -36,9 +27,25 @@ int GetInputValue()
 
 
 
-
 public class Player
 {
     public int experience;
     public int level;
+
+    public void GrantExperience(int value)
+    {
+        experience += value;
+        LevelUpCheck();
+    }
+    
+    void LevelUpCheck()
+    {
+        if (experience < 100) 
+            return;
+        
+        level++;
+        experience -= 100;
+        LevelUpCheck();
+    }
+    
 }
