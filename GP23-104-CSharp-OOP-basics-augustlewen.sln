@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3LevelUp", "P3LevelUp\P3Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4Attack", "P4Attack\P4Attack.csproj", "{05536B4F-E009-4D3D-AD7E-2DAB79D42DB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG", "RPG\RPG.csproj", "{6CE73456-BBB6-4BDB-A978-41A8F2257B73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{05536B4F-E009-4D3D-AD7E-2DAB79D42DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05536B4F-E009-4D3D-AD7E-2DAB79D42DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05536B4F-E009-4D3D-AD7E-2DAB79D42DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE73456-BBB6-4BDB-A978-41A8F2257B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE73456-BBB6-4BDB-A978-41A8F2257B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE73456-BBB6-4BDB-A978-41A8F2257B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE73456-BBB6-4BDB-A978-41A8F2257B73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
