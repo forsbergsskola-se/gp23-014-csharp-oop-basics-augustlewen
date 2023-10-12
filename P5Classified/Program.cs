@@ -1,13 +1,14 @@
-﻿public class Bread : Food
+﻿
+public class Bread : Food
 {
 }
-public class Banana : Food
+public class Banana : VitaminFood
 {
 }
-public class Apple : Food
+public class Apple : VitaminFood
 {
 }
-public class Pear : Food
+public class Pear : VitaminFood
 {
 }
 
@@ -31,7 +32,7 @@ public class Spear : Weapon
 public class Tree : Plant
 {
 }
-public class Gorrila : Monkey
+public class Gorilla : Monkey
 {
 }
 public class Chimpanzee : Monkey

@@ -5,7 +5,10 @@ public class Item
 
 public class Food : Item
 {
-    public bool containsVitamin;
+}
+
+public class VitaminFood : Food
+{
     
 }
 
