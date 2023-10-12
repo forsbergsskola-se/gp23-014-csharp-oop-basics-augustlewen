@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4Attack", "P4Attack\P4Atta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG", "RPG\RPG.csproj", "{6CE73456-BBB6-4BDB-A978-41A8F2257B73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5Classified", "P5Classified\P5Classified.csproj", "{EF02DE77-B617-4683-A9BA-C40C01EB08FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{6CE73456-BBB6-4BDB-A978-41A8F2257B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CE73456-BBB6-4BDB-A978-41A8F2257B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CE73456-BBB6-4BDB-A978-41A8F2257B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF02DE77-B617-4683-A9BA-C40C01EB08FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF02DE77-B617-4683-A9BA-C40C01EB08FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF02DE77-B617-4683-A9BA-C40C01EB08FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF02DE77-B617-4683-A9BA-C40C01EB08FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
