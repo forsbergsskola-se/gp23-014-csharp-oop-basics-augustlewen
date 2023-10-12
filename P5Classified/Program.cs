@@ -1,4 +1,6 @@
 ﻿using P5Classified;
+
+Console.WriteLine("Hello, World!");
 public class Bread : Food
 {
 }
