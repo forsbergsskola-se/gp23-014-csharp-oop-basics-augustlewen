@@ -1,13 +1,4 @@
-﻿
-/*
-Bread, Banana, Apple, Pear
-Sword, Axe, Pencil, Shield, Spear
-Tree, Gorilla, Chimpanzee, Sparrow, Pigeon, Hawk
-*/
-
-
-
-public class Bread : Food
+﻿public class Bread : Food
 {
 }
 public class Banana : Food
