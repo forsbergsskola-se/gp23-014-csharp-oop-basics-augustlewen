@@ -9,6 +9,7 @@ defender.shield = new Shield();
 attacker.Attack(defender);
 
 attacker.sword = new Sword();
+Console.WriteLine("Equipping sword...");
 
 attacker.Attack(defender);
 

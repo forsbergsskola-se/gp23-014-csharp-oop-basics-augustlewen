@@ -24,7 +24,7 @@ public class Knight
 
     public void Attack(Knight target)
     {
-        string weapon = this.sword != null? "sword" : "bare hands";
+        string weapon = this.sword != null? "Sword" : "bare hands";
         Console.WriteLine($"Knight attacks Knight with {weapon}.");
         
         target.GetHit(this.sword);
